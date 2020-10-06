@@ -36,37 +36,37 @@ namespace Trabajopractico
 
         }
 
-        public static void Listas()
-        {
-            int[] numeros = new int[3];
-            numeros[0] = 1;
+        //public static void listas()
+        //{
+        //    int[] numeros = new int[3];
+        //    numeros[0] = 1;
 
-            ArrayList lista = new ArrayList();
-            lista.Add(1);
-            lista.Add("");
+        //    arraylist lista = new arraylist();
+        //    lista.add(1);
+        //    lista.add("");
 
-            List<int> listadenumeros = new List<int>();
-            listadenumeros.Add(1);
+        //    list<int> listadenumeros = new list<int>();
+        //    listadenumeros.add(1);
 
 
-            Dictionary<int, String> personas = new Dictionary<int, string>();
-            personas.Add(38, "Gabriel");
+        //    dictionary<int, string> personas = new dictionary<int, string>();
+        //    personas.add(38, "gabriel");
 
-            Usuario a = new Usuario();
-            Tarea tarea1 = new Tarea();
-            Tarea tarea2 = new Tarea();
-            Tarea tarea3 = new Tarea();
-            Tarea tarea4 = new Tarea();
-            ArrayList tareas = new ArrayList();
-            tareas.Add(tarea1);
-            tareas.Add(tarea2);
-            tareas.Add(tarea3);
-            tareas.Add(tarea4);
+        //    usuario a = new usuario();
+        //    tarea tarea1 = new tarea();
+        //    tarea tarea2 = new tarea();
+        //    tarea tarea3 = new tarea();
+        //    tarea tarea4 = new tarea();
+        //    arraylist tareas = new arraylist();
+        //    tareas.add(tarea1);
+        //    tareas.add(tarea2);
+        //    tareas.add(tarea3);
+        //    tareas.add(tarea4);
 
-            List<int> num = new List<int> { 1, 2, 3, 4, 5, 6, };
-            var test = num.Count;
+        //    list<int> num = new list<int> { 1, 2, 3, 4, 5, 6, };
+        //    var test = num.count;
 
-        }
+        //}
 
     }
 }
